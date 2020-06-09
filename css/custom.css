@@ -1,0 +1,130 @@
+body{
+    box-sizing: border-box;
+    font-family: lato, sans-serif;
+}
+.purchase{
+    
+    border: 1px solid #fff;
+    border-radius: 6px;
+}
+.purchase:hover{
+    background-color: #fff;
+    color: #000 !important;
+}
+.navbar-lg{
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+.navbar-absolute{
+    position: absolute;
+    left: auto;
+    right: auto;
+    top: auto;
+    bottom: auto;
+    z-index: 3;
+}
+.bg-overlay-primary:after{
+    content: " ";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: rgba(18, 131, 218, .85);
+    z-index: 2;
+}
+.img-cover{
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+}
+
+.py-6{
+    padding-bottom: 4.5rem!important;
+}
+.py-6{
+    padding-top: 4.5rem!important;
+}
+.intro-content{
+    z-index: 2;
+    position: relative;
+}
+.banner img{
+    width: 100%;
+}
+.banner{
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+}
+.overlay{
+    
+    position: absolute;
+    background: #0c73cce0;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+.banner-box{
+    
+position: absolute;
+    
+top: 50%;
+    
+left: 50%;
+    
+transform: translate(-50%, -50%);
+}
+.feature .feature-img{
+    background: #bdbdbd;
+    border-radius: 5px;
+}
+.feature .feature-img img{
+    transform: translate(-5px, -5px);
+    transition-duration: 0.2s;
+}
+.feature .feature-img:hover img{
+    transform: translate(-8px, -8px);
+}
+.link{
+    text-decoration: none;
+    color: gray;
+    border-bottom: 2px solid #dee2e6;
+    padding-bottom: 2px;
+    transition-duration: 0.4s;
+}
+.link:hover{
+    text-decoration: none;
+    color: gray;
+    border-bottom: 2px solid #999;
+}
+.link:hover span{
+    margin-left: 2px;
+}
+.elements-icon{
+    text-align: center;
+    color: #fff;
+    font-size: 2em;
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+    border-radius: 5px;
+}
+.icofont-arrow-down{
+    border: 3px solid white;
+    border-radius: 40%;
+}
+.bg-purple{
+    background: rgb(150, 37, 255);
+}
+.lh-1{
+    line-height: 2!important;
+}
